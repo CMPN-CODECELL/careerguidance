@@ -1,12 +1,11 @@
-import React from "react";
-
 function Home() {
-  return (
-    <div className="page">
-      <h1>Welcome to CareerGuide</h1>
-      <p>Your AI-powered career guidance assistant.</p>
-    </div>
-  );
-}
-
-export default Home;
+    return (
+      <div className="flex flex-col items-center justify-center h-screen">
+        <h1 className="text-4xl font-bold text-blue-600">Welcome to Career Guidance</h1>
+        <p className="text-gray-600 mt-4">Your AI-powered career assistant.</p>
+      </div>
+    );
+  }
+  
+  export default Home;
+  
